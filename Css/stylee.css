@@ -1,0 +1,390 @@
+html,body {
+    font-family: Raleway;
+}
+
+
+/*Flexbox*/
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-c-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-c-around{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flex-c-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*Tailles*/
+.t-liens{
+    width: 100%;
+}
+.t-liens12{
+    margin-left: 60%;
+}
+.t-lien{
+    width: 140px;
+    height: 99px;
+}
+.t-hebergement{
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.t-populaire{
+    flex: 1;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+/*Couleurs*/
+.color-bleue{
+    color: blue;
+}
+.color-gris{
+    color:rgba(87, 84, 84, 0.158);
+}
+.fond-bleu{
+    background-color:blue;
+}
+.fond-gris{
+    background-color:gray;
+}
+.gras{
+    font-weight: bold;
+}
+/*Navigation*/
+
+.nav-bordure{
+    border-top: 1px solid blue;
+}
+
+/*Header*/
+
+.Bordure-search {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px ;
+}
+.recherche{
+    height:50px ;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.t-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px ;
+}
+.bordure-none{
+    border: none;
+}
+.padding-search{
+    padding-left: 20px;
+}
+.button-search{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0 ;
+}
+
+/*Filtres*/
+
+.filtre{
+    display: flex;
+    align-items: center;
+}
+.marge-filtre{
+    margin-top: 50px;
+    margin-bottom: 20 px ;
+}
+.marge-filtre-titre{
+    margin-right: 20px;
+}
+.filtre-text-icon {
+    border: 2px solid;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filtre-text-icon:hover > .filtreTexte{
+    color:blue
+}
+.filtre-text-icon:hover > .filtreIcons{
+color: white;
+background-color: blue;
+}
+.filtre-texte{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0 ;
+}
+.filtre-icon{
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: blue;
+    background-color: #deebff;
+}
+
+/*info*/
+.info{
+    display: flex;
+    align-items: center;
+}
+.icon-parents{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+/*Hebergement b=bloc c=cube d=détails */
+
+.b-hebergement{
+padding-left: 20px;
+padding-right: 20px;
+}
+.c-hebergement{
+width: 30%;
+height: auto;
+background-color: white;
+padding: 1%;
+border-radius: 20px;
+box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.d-hebergement{
+    width: 90%;
+}
+
+.b1{
+    margin-bottom: 10px;
+}
+.b2{
+    margin-top: 10px;
+}
+
+/*Images*/ 
+
+
+.img-h1{
+background-size: cover;
+background-position:center;
+width: 100%;
+height: 120px;
+border-radius: 15px 15px 0 0 ;
+}
+.img-h2{
+background-size: cover;
+background-position:center;
+width: 100%;
+height: 120px;
+border-radius: 15px 15px 0 0 ;
+}
+.img-h3{
+background-size: cover;
+background-position:center;
+width: 100%;
+height: 120px;
+border-radius: 15px 15px 0 0 ;
+}
+
+.img-h4{
+background-size: cover;
+background-position:center;
+width: 100%;
+height: 120px;
+border-radius: 15px 15px 0 0 ;
+}
+.img-h5{
+background-size: cover;
+background-position:center;
+width: 100%;
+height: 120px;
+border-radius: 15px 15px 0 0 ;  
+}
+.img-h6{
+background-size: cover;
+background-position:center;
+width: 100%;
+height: 120px;
+border-radius: 15px 15px 0 0 ;
+}
+
+
+/*populaire*/
+.b-populaire {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.c-populaire{
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+.b-populaire1-2{
+    margin-bottom: 20px;
+}
+
+.c-d-populaire{
+    width: 60%;
+    padding-left: 5%;
+}
+.img-p1{
+    background-size: cover;
+    background-position:center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px ;
+    }
+.img-p2{
+    background-size: cover;
+    background-position:center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px ;
+}
+.img-p3{
+    background-size: cover;
+    background-position:center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px ;
+    }
+
+/*Activité b=bloc ba=bloc-Activité c=cube ca=cube-activité t-a=titre activité*/
+.Ac{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ba{
+    width: 100%;
+    height: 600px;
+}
+.ba2356{
+width: 23%;
+height: 600px;
+
+}
+.ca{
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.ca2356{
+width: 100%;
+border-radius: 15px;
+box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.h-titre{
+    height: 70px;
+}
+.titre-a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+
+
+/* Images activité*/
+
+.img-a1{
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0 ;
+}
+.img-a2{
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0 ;
+}
+.img-a3{
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0 ;
+}
+.img-a4{
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0 ;
+}
+.img-a5{
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0 ;
+}
+.img-a6{
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+/*Footer*/
+
+.footer{
+
+    height: 300px;
+    margin-top: 100px;
+}
+.t-b-footer{
+height: 150px;
+
+}
+.marge-b-footer1{
+
+    margin-left: 5%;
+}
+.marge-b-footer3{
+
+    margin-right: 15%;
+}
+
