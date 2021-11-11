@@ -12,12 +12,6 @@ body{
     margin-right: 50px ;
     max-width: 1200px;
 }
-header{
-    
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
 /*Flexbox*/
 
 .flex-center{
@@ -391,7 +385,6 @@ height: 150px;
 /*responsive*/
 
 @media screen and(max-width:1295px) {
-
     .t-liens12{
 
         margin-left :35%;
@@ -416,6 +409,7 @@ height: 150px;
 }
 
 @media screen and (max-width:990px) {
+    
     .m-filtre{
 flex-direction: column;
 align-items: flex-start;
@@ -445,11 +439,6 @@ align-items: flex-start;
 }
 
 @media screen and (max-width:770px) {
-    #heb-act {
-        margin-left: 300px;
-    }
-    
-
     .t-liens{
     width:90px;
 }
@@ -607,6 +596,5 @@ margin-top:0;
 #heb-act {
     display: flex;
     justify-content: space-between;
-    margin-left: 0;
 }
 }
