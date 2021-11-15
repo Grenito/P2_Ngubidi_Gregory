@@ -12,6 +12,45 @@ body{
     margin-right: 50px ;
     max-width: 1200px;
 }
+h1{
+    color: #0065fc;
+}
+header {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    
+main {
+max-width: 1300px;
+margin: auto;
+}
+    
+#heb-act {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+    
+nav {
+justify-content: center;
+}
+
+nav > div {
+    
+}
+    
+nav > div > a {
+margin: 10px 40px;
+}
+
+
+
+
+
+
 /*Flexbox*/
 
 .flex-center{
@@ -580,21 +619,33 @@ margin-top:0;
     padding-left:5%;
 
 }
-#heb {
-    border-bottom: 3px solid blue;
-    width: 300px;
-    text-align: center;
-}
-.nav-bordure {
-    border-top:none;
-}
-#act {
-    border-bottom: 3px solid ghostwhite;
-    width: 300px;
-    text-align: center;
-}
-#heb-act {
-    display: flex;
-    justify-content: space-between;
+@media screen and (max-width: 500px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    #heb-act > a {
+        flex-basis: 50%;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    #heb {
+        border-bottom: 3px solid blue;
+    }
+    #act {
+        border-bottom: 3px solid lightgrey;
+    }
+
+    #heb-act > a {
+        margin-bottom: 0px;
+    }
 }
 }
