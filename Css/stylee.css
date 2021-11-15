@@ -22,12 +22,6 @@ header {
     align-items: center;
     }
     
-    
-main {
-max-width: 1300px;
-margin: auto;
-}
-    
 #heb-act {
 display: flex;
 flex-direction: row;
@@ -45,12 +39,6 @@ nav > div {
 nav > div > a {
 margin: 10px 40px;
 }
-
-
-
-
-
-
 /*Flexbox*/
 
 .flex-center{
