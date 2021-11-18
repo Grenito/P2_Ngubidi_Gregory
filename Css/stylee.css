@@ -8,8 +8,7 @@ html,body {
 
 }
 body{
-    margin-left: 50px ;
-    margin-right: 50px ;
+    margin: auto;
     max-width: 1200px;
 }
 h1{
@@ -411,13 +410,11 @@ height: 150px;
 
 /*responsive*/
 
-@media screen and(max-width:1295px) {
+@media screen and(max-width:1295px){
     .t-liens12{
-
-        margin-left :35%;
+    margin-left :35%;
     }
 .d-hebergement{
-
     min-height:150px;
 }
 .t-hebergement{
@@ -428,13 +425,10 @@ height: 150px;
     min-height: auto;
     padding:20px;
 }
-
 .tstp{
-
     margin-top:0;
 }
 }
-
 @media screen and (max-width:990px) {
     
     .m-filtre{
