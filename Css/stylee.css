@@ -86,13 +86,13 @@ margin: 10px 40px;
 }
 .t-hebergement{
     flex: 2;
-    height: 650px;
+    height: 720px;
     margin-right: 20px;
     border-radius: 10px;
 }
 .t-populaire{
     flex: 1;
-    height: 650px;
+    height: 720px;
     margin-right: 20px;
     border-radius: 10px;
 }
@@ -189,6 +189,10 @@ margin: 10px 40px;
 .filtre-text-icon:hover > .filtreIcons{
 color: white;
 background-color: blue;
+}
+.filtre-text-icon:hover {
+    color: blue;
+    background-color: #f2f4f7;
 }
 .filtre-texte{
     height: 50px;
@@ -460,6 +464,10 @@ align-items: flex-start;
 }
 
 @media screen and (max-width:770px) {
+    body{
+        margin: 8px;
+    }
+    
     .t-liens{
     width:90px;
 }
