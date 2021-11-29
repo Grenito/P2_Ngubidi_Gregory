@@ -26,7 +26,14 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
-    
+.ai {
+    color: #0065FC;
+    text-decoration: none;
+} 
+.nav-selected {
+    border-top: 1px #0065FC solid;
+    padding-top: 3px;
+}   
 nav {
 justify-content: center;
 }
