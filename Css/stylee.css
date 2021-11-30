@@ -29,11 +29,17 @@ justify-content: space-between;
 .ai {
     color: #0065FC;
     text-decoration: none;
-} 
+}
+.ai1 {
+    color: gray;
+    text-decoration: none;
+}  
 .nav-selected {
-    border-top: 1px #0065FC solid;
     padding-top: 3px;
-}   
+}  
+.barre{
+    border-top:4px #0065FC solid;
+}
 nav {
 justify-content: center;
 }
@@ -639,10 +645,6 @@ margin-top:0;
     }
     #act {
         border-bottom: 3px solid lightgrey;
-    }
-
-    #heb-act > a {
-        margin-bottom: 0px;
     }
 }
 }
